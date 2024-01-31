@@ -91,14 +91,13 @@ letter-spacing: -0.36px;
 }
 .d-price{
 color: rgba(20, 20, 20, 0.50);
-
 font-family: 'Epilogue',sans-serif;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: 14px; /* 116.667% */
 letter-spacing: -0.24px;
-text-decoration-line: strikethrough;
+text-decoration:line-through;
 }
 .description{
 margin-top: 40px;
