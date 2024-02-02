@@ -12,7 +12,7 @@
 
     max-width: 335px;
     margin: 0 auto;
-    padding: 0;
+    
   
     @media screen and (min-width: 768px) {
       max-width: 768px;
@@ -31,67 +31,26 @@
    
 }
 .sale-header{
-    font-family: "Epilogue", sans-serif;
+position: absolute;
+color: var(--dark-green, #1E2827);
+font-family: 'Epilouge',sans-serif;
+font-size: 40px;
+font-style: normal;
 font-weight: 600;
-font-size: 32px;
-line-height: 1.25;
-letter-spacing: -0.02em;
-color: #141414;
-
-    @media screen and (min-width: 768px) {
-        max-width: 768px;
-        align-items: center;
-      }
-    
-      @media screen and (min-width: 1176px) {
-        position: absolute;
-        color: var(--dark-green, #1E2827);
-        font-family: 'Epilouge',sans-serif;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 44px; /* 110% */
-        letter-spacing: -0.8px;
-        
-      }
-
+line-height: 44px; /* 110% */
+letter-spacing: -0.8px;
 }
 .image{
-    width: 80px;
-height: 80px;
-  
-    @media screen and (min-width: 768px) {
-        max-width: 768px;
-        align-items: center;
-      }
-    
-      @media screen and (min-width: 1176px) {
-        width: 146px;
+width: 146px;
 height: 146px;
-        
-      }
-
 }
 .sale-item{
-
-    margin-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-
-    @media screen and (min-width: 768px) {
-        max-width: 768px;
-        align-items: center;
-      }
-    
-      @media screen and (min-width: 1176px) {
-        padding-top: 124px;
-        flex-shrink: 0;
-        display:flex;
-        width: 981px;
-        margin-left: 132px;
-        
-      }
-    
+  
+    padding-top: 124px;
+    flex-shrink: 0;
+    display:flex;
+    width: 981px;
+    margin-left: 132px;
 }
 .sale-img{
     display: flex;
@@ -100,28 +59,11 @@ height: 146px;
     
 }
 .sale-hero-image{
-    border: 1px solid #141414;
-    width: 235px;
-    height: 350px;
-    background-color: #141414;
-    margin-left: 20px;
-    @media screen and (min-width: 768px) {
-        max-width: 768px;
-        align-items: center;
-      }
-    
-      @media screen and (min-width: 1176px) {
-        border: 1px solid #141414;
 width: 406px;
 height: 614px;
 flex-shrink: 0;
-margin-left: 20px;
+padding-left: 20px;
 border-radius: 4px;
-background-color: #141414;
-        
-      }
-
-
 }
 .sale-text{
     
