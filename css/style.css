@@ -9,12 +9,25 @@
     padding: 0;
   }
 .sale-con{
-    height: 1176px;
-    height: 738px;
+    max-width: 428px;
+    margin: 0 auto;
+    
+  
+    @media screen and (min-width: 768px) {
+      max-width: 768px;
+      align-items: center;
+    }
+  
+    @media screen and (min-width: 1158px) {
+        max-width: 1176px;
+        height: 738px;
+      
+    }
+    
     
 }
 .sale-header{
-    color: var(--dark-green, #1E2827);
+color: var(--dark-green, #1E2827);
 font-family: 'Epilouge',sans-serif;
 font-size: 40px;
 font-style: normal;
@@ -23,7 +36,7 @@ line-height: 44px; /* 110% */
 letter-spacing: -0.8px;
 }
 .image{
-    width: 146px;
+width: 146px;
 height: 146px;
 flex-shrink: 0;
 
@@ -118,11 +131,11 @@ letter-spacing: -0.36px;
 text-transform: uppercase;
 }
 .description-text{
-    width: 369px;
+width: 369px;
 height: 126px;
 color: rgba(20, 20, 20, 0.50);
 
-font-family: Epilogue;
+font-family: 'Epilogue',sans-serif;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
