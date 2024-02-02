@@ -9,9 +9,15 @@
     padding: 0;
   }
 .sale-con{
+    max-width: 428px;
+    @media  screen and (min-width:1176x)  {
+    
+    margin: 0;
+    padding: 0;
 position:relative;   
 max-width: 1176px;
 height: 738px;
+    }
    
 }
 .sale-header{
