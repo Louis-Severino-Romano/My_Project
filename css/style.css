@@ -156,13 +156,34 @@
     color: #141414;
   }
 
+@media screen and (min-width: 768px){
+.sale-con{
+
+width: 704px;
+height: 1277px;
+margin: 0 auto;
+padding: 0;
+position:relative;  
+}
+.sale-header{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    color: #1e2827;
+    position: absolute;
+
+}
+
+}
 
 
   @media screen and (min-width: 1176px){
 
 .sale-con{
  
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         position:relative;   
         max-width: 1176px;
