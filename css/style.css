@@ -166,6 +166,7 @@ padding: 0;
 position:relative;  
 }
 .sale-header{
+    position: absolute;
     font-family: "Epilogue", sans-serif;
     font-weight: 600;
     font-size: 40px;
