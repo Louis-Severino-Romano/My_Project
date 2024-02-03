@@ -8,28 +8,166 @@
     margin: 0;
     padding: 0;
   }
-.sale-con{
 
-    max-width: 335px;
-    margin: 0 auto;
-    
-
-  
-    @media screen and (min-width: 768px) {
-      max-width: 768px;
-      align-items: center;
+  @media screen and (max-width: 425px){
+    .sale-con{
+ 
+        margin: 0 auto;
+        padding: 0;
+        position:relative;   
+        width: 335px;
+        height: 1037px;
     }
-  
-    @media screen and (min-width: 1176px) {
+
+    .sale-header{
+        font-family: "Epilogue", sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        color: #141414; 
+    }
+    
+.image{
+    width: 80px;
+    height: 80px;
+    }
+
+.sale-item{
+    
+        margin-top: 40px;
+        flex-shrink: 0;
+        display:flex;
+        width: 335px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .gallery-item{
+        margin-bottom: 7px;
+    }
+
+.sale-img{
+    width: 80px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+        
+    }
+
+.sale-hero-image{
+        
+        flex-shrink: 0;
+        margin-left: 20px;
+        border-radius: 4px;
+        border: 1px solid #141414;
+        width: 235px;
+        height: 350px;
+        background-color: #141414;
+        }
+
+.sale-text{
+        position: relative;
+           
+        }
+.column-text{
+    margin-top: 40px;
+}
+
+.sale-title{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #141414;
+            }
+.sale-par{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+                }
+
+  }
+  .price{
+
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: -0.02em;
+    color: #141414;
+  }
+  .d-price{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(20, 20, 20, 0.5);
+  }
+  .description{
+    margin-top: 40px;
+    border-top: 1px solid #141414;
+    padding: 8px 0px;
+    width: 335px;
+    height: 40px;
+    display: flex;
+    gap: 216px;
+  }
+  .description-header{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #141414;
+  }
+  .description-text{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.01em;
+    color: rgba(20, 20, 20, 0.5);
+  }
+  .details{
+    margin-top: 40px;
+    border-top: 1px solid #141414;
+    padding: 8px 0px;
+    width: 335px;
+    height: 40px;
+    display: flex;
+    gap: 120px;
+  }
+  .details-header{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #141414;
+  }
+
+
+
+  @media screen and (min-width: 1176px){
+
+.sale-con{
+ 
         margin: 0;
         padding: 0;
         position:relative;   
         max-width: 1176px;
         height: 738px;
-      
-    }
-   
-   
+ 
 }
 .sale-header{
 position: absolute;
@@ -123,7 +261,7 @@ border-top: 1px solid var(--black, #141414);
 display: flex;
 padding: 8px 0px;
 align-items: center;
-gap: 270px;
+gap: 215px;
 }
 .description-header{
 
@@ -151,9 +289,9 @@ letter-spacing: -0.14px;
 display: flex;
 padding: 8px 0px;
 align-items: center;
-gap: 175px;
+gap: 120px;
 border-top: 1px solid var(--black, #141414);
-margin-top: 26px;
+margin-top: 40px;
 }
 .details-header{
 color: var(--black, #141414);
@@ -166,9 +304,13 @@ letter-spacing: -0.36px;
 text-transform: uppercase;
 
 }
-.list{
-    list-style: none;s
-}
-.gallery-item{
+
+
+  }
+
+  .gallery-item{
     margin-bottom: 5px;
+}
+  .list{
+    list-style: none;
 }
